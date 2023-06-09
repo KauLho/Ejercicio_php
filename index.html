@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <title>Formulario de Usuario</title>
+</head>
+<body>
+  <h2>Formulario de Usuario</h2>
+  
+  <form method="POST" action="guardar_usuario.php">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" required><br><br>
+    
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido" id="apellido" required><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required><br><br>
+    
+    <input type="submit" value="Guardar">
+  </form>
+</body>
+</html>
